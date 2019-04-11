@@ -13,7 +13,7 @@ import os
 ap = argparse.ArgumentParser()
 ap.add_argument("-c", "--cascade", default="haarcascade_frontalface_default.xml",
 	help = "path to where the face cascade resides")
-ap.add_argument("-o", "--output", default="dataset/hzh",
+ap.add_argument("-o", "--output", default="dataset/users/hzh",
 	help="path to output directory")
 args = vars(ap.parse_args())
 
