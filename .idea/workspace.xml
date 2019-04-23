@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="798c469a-34f8-4b32-9be5-5e2f2f34a418" name="Default Changelist" comment="" />
+    <list default="true" id="798c469a-34f8-4b32-9be5-5e2f2f34a418" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_face_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/build_face_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/Chad_Smith/Chad-Smith-Modern-Drummer-1-e1313609138321.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/Chad_Smith/Chad-Smith.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/Chad_Smith/ChadSmith-920x584.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/Chad_Smith/Chad_Smith-avatar.jpg.240x240_q90_bw_crop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/Chad_Smith/MSA-003634-Chad-Smith-400x512.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/Chad_Smith/chad-smith-batería-de-la-banda-candente-música-chili-peppers-se-realiza-en-concierto-el-festival-bola-105414323.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/Chad_Smith/chad-smith-photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/Chad_Smith/depositphotos_50597637-stock-photo-chad-smith.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/Chad_Smith/depositphotos_50609015-stock-photo-chad-smith.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/Chad_Smith/gettyimages-106706630-612x612.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/Will_Ferrell/Will-Ferrell--920x584.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/Will_Ferrell/Will-Ferrell-in-Anchorman-The-Legend-of-Ron-Burgundy2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/Will_Ferrell/Will_Ferrell.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/Will_Ferrell/will-ferrell-bush-snl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/Will_Ferrell/will-ferrell-car-accident-310x415.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/Will_Ferrell/will-ferrell-religion-hobbies.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/Will_Ferrell/will-ferrell-revives-his-george-w-bush-impression-at-samantha-bee-c1dd702d-3159-41b8-a9d4-d3819a0167da.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/Will_Ferrell/will-ferrell-ron-burgundy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/Will_Ferrell/will-ferrell_sc_768x1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/Will_Ferrell/willferrell-531290872.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/hzh/00010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/hzh/00011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/hzh/00012.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/hzh/00013.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/hzh/00014.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/hzh/00015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/hzh/00016.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/hzh/00017.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/hzh/00018.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/users/hzh/00019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/liveness_face_recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/liveness_face_recognition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mkdir_test.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/liveness_face_recognition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+            <state relative-caret-position="-187">
+              <caret line="193" lean-forward="true" selection-start-line="193" selection-end-line="193" />
               <folding>
                 <element signature="e#130#172#0" expanded="true" />
               </folding>
@@ -25,32 +60,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build_face_dataset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1045">
-              <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
-              <folding>
-                <element signature="e#142#179#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="228">
+              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/encode_faces.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="40" column="48" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="48" />
+            <state relative-caret-position="303">
+              <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
               <folding>
                 <element signature="e#113#138#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mkdir_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -116,15 +139,15 @@
         <option value="$PROJECT_DIR$/liveness_demo.py" />
         <option value="$PROJECT_DIR$/train_liveness.py" />
         <option value="$PROJECT_DIR$/mkdir_test.py" />
-        <option value="$PROJECT_DIR$/build_face_dataset.py" />
         <option value="$PROJECT_DIR$/encode_faces.py" />
+        <option value="$PROJECT_DIR$/build_face_dataset.py" />
         <option value="$PROJECT_DIR$/liveness_face_recognition.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="399" />
-    <option name="y" value="363" />
+    <option name="x" value="499" />
+    <option name="y" value="105" />
     <option name="width" value="928" />
     <option name="height" value="1020" />
   </component>
@@ -174,6 +197,11 @@
               <item name="models" type="462c0819:PsiDirectoryNode" />
               <item name="face_embeddings" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="final_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final_project" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -218,7 +246,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="liveness_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="encode_faces" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="final_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -230,7 +258,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/liveness_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/encode_faces.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -305,10 +333,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.liveness_face_recognition" />
+        <item itemvalue="Python.encode_faces" />
         <item itemvalue="Python.build_face_dataset" />
         <item itemvalue="Python.mkdir_test" />
         <item itemvalue="Python.train_liveness" />
-        <item itemvalue="Python.liveness_demo" />
       </list>
     </recent_temporary>
   </component>
@@ -326,14 +354,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="399" y="363" width="928" height="1020" extended-state="0" />
+    <frame x="499" y="105" width="928" height="1020" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24336283" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24336283" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5504484" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41367713" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42825112" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -376,6 +405,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/liveness_net/livenessnet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
@@ -398,6 +434,23 @@
     <entry file="file://$PROJECT_DIR$/liveness_net/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/build_face_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liveness_face_recognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="193" lean-forward="true" selection-start-line="193" selection-end-line="193" />
+          <folding>
+            <element signature="e#130#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mkdir_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -405,39 +458,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/encode_faces.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="40" column="48" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="48" />
+        <state relative-caret-position="303">
+          <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
           <folding>
             <element signature="e#113#138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build_face_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
-          <folding>
-            <element signature="e#142#179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liveness_face_recognition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
-          <folding>
-            <element signature="e#130#172#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -36,7 +36,7 @@ ap.add_argument("-l_i", "--le_id", type=str, default="output/le_id.pickle",
                 help="path to label encoder")
 ap.add_argument("-p", "--shape-predictor", default="models/face_landmark/shape_predictor_68_face_landmarks.dat",
                 help="path to facial landmark predictor")
-ap.add_argument("-e", "--embeddings", default="output/encodings_test.pickle",
+ap.add_argument("-e", "--embeddings", default="output/encodings.pickle",
                 help="path to serialized db of facial embeddings")
 args = vars(ap.parse_args())
 
@@ -81,6 +81,8 @@ predictor = dlib.shape_predictor(args["shape_predictor"])
 # frames the eye must be below the threshold
 EYE_AR_THRESH = 0.22
 EYE_AR_CONSEC_FRAMES = 3
+
+FACE_THRESH = 8
 
 # grab the indexes of the facial landmarks for the left and
 # right eye, respectively
@@ -181,13 +183,14 @@ while True:
                     # of votes (note: in the event of an unlikely tie Python
                     # will select first entry in the dictionary)
                     name = max(counts, key=counts.get)
-                    if counts[name] < 15:
+                    if counts[name] < FACE_THRESH:
                         name = "Unknown"
 
                 # draw the label and bounding box on the frame
                 label = "{}".format(name)
-                cv2.putText(frame, label, (startX, startY - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, RED, 1)
-                cv2.rectangle(frame, (startX, startY), (endX, endY), RED, 1)
+                y = startY - 10 if startY - 10 > 10 else startY + 20
+                cv2.putText(frame, label, (startX, y), cv2.FONT_HERSHEY_SIMPLEX, 0.6, GREEN, 2)
+                cv2.rectangle(frame, (startX, startY), (endX, endY), GREEN, 1)
 
             elif rec_mod == 1:
                 # extract the face ROI and then pre-process it in the exact
@@ -231,19 +234,21 @@ while True:
                         # of votes (note: in the event of an unlikely tie Python
                         # will select first entry in the dictionary)
                         name = max(counts, key=counts.get)
-                        if counts[name] < 15:
+                        if counts[name] < FACE_THRESH:
                             name = "Unknown"
 
                     # draw the label and bounding box on the frame
                     label = "{}: {:.4f} {}".format(label, preds[j], name)
-                    cv2.putText(frame, label, (startX, startY - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, GREEN, 1)
-                    cv2.rectangle(frame, (startX, startY), (endX, endY), BLUE, 1)
+                    y = startY - 10 if startY - 10 > 10 else startY + 20
+                    cv2.putText(frame, label, (startX, y), cv2.FONT_HERSHEY_SIMPLEX, 0.6, GREEN, 2)
+                    cv2.rectangle(frame, (startX, startY), (endX, endY), GREEN, 1)
 
                 else:
                     # draw the label and bounding box on the frame
                     label = "{}: {:.4f}".format(label, preds[j])
-                    cv2.putText(frame, label, (startX, startY - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, GREEN, 1)
-                    cv2.rectangle(frame, (startX, startY), (endX, endY), BLUE, 1)
+                    y = startY - 10 if startY - 10 > 10 else startY + 20
+                    cv2.putText(frame, label, (startX, y), cv2.FONT_HERSHEY_SIMPLEX, 0.6, RED, 2)
+                    cv2.rectangle(frame, (startX, startY), (endX, endY), RED, 1)
 
             elif rec_mod == 2:
                 # extract the face ROI and then pre-process it in the exact
@@ -287,7 +292,7 @@ while True:
                         # of votes (note: in the event of an unlikely tie Python
                         # will select first entry in the dictionary)
                         name = max(counts, key=counts.get)
-                        if counts[name] < 15:
+                        if counts[name] < FACE_THRESH:
                             name = "Unknown"
 
                     # if detected a person in database, execute eye-blink check
@@ -321,8 +326,8 @@ while True:
                             # draw the bounding box of the face along with the
                             # associated probability
                             text = "{}: {:.4f}".format(label, preds[j])
-                            cv2.putText(frame, text, (startX, startY - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5,
-                                        GREEN, 1)
+                            y = startY - 10 if startY - 10 > 10 else startY + 20
+                            cv2.putText(frame, text, (startX, y), cv2.FONT_HERSHEY_SIMPLEX, 0.6, GREEN, 2)
                             cv2.rectangle(frame, (startX, startY), (endX, endY), GREEN, 1)
 
                         # otherwise, the eye aspect ratio is not below the blink
@@ -336,9 +341,9 @@ while True:
                                 # draw the bounding box of the face along with the
                                 # associated probability
                                 text = "{}: {:.4f} {}: {}".format(label, preds[j], name, "Blinked!")
-                                y = startY - 10 if startY - 10 > 10 else startY + 10
-                                cv2.putText(frame, text, (startX, startY - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5,
-                                            GREEN, 1)
+                                y = startY - 10 if startY - 10 > 10 else startY + 20
+                                cv2.putText(frame, text, (startX, y), cv2.FONT_HERSHEY_SIMPLEX, 0.6,
+                                            GREEN, 2)
                                 cv2.rectangle(frame, (startX, startY), (endX, endY), GREEN, 1)
                                 cv2.putText(frame, "Blinks: {}".format(TOTAL[name]), (25, 400),
                                             cv2.FONT_HERSHEY_SIMPLEX, 0.75, RED, 2)
@@ -349,8 +354,8 @@ while True:
                                 # draw the bounding box of the face along with the
                                 # associated probability
                                 text = "{}: {:.4f}".format(label, preds[j])
-                                cv2.putText(frame, text, (startX, startY - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5,
-                                            GREEN, 1)
+                                y = startY - 10 if startY - 10 > 10 else startY + 20
+                                cv2.putText(frame, text, (startX, y), cv2.FONT_HERSHEY_SIMPLEX, 0.6, GREEN, 2)
                                 cv2.rectangle(frame, (startX, startY), (endX, endY), GREEN, 1)
 
                             # reset the eye frame counter
@@ -358,7 +363,8 @@ while True:
                 else:
                     # draw the label and bounding box on the frame
                     text = "{}: {:.4f}".format(label, preds[j])
-                    cv2.putText(frame, text, (startX, startY - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, RED, 1)
+                    y = startY - 10 if startY - 10 > 10 else startY + 20
+                    cv2.putText(frame, text, (startX, y), cv2.FONT_HERSHEY_SIMPLEX, 0.6, RED, 2)
                     cv2.rectangle(frame, (startX, startY), (endX, endY), RED, 1)
 
     cv2.putText(frame, "Face recognition running", (25, 40),
