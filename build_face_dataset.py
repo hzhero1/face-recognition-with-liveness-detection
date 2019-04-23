@@ -1,6 +1,3 @@
-# USAGE
-# python build_face_dataset.py --cascade haarcascade_frontalface_default.xml --output dataset/adrian
-
 # import the necessary packages
 from imutils.video import VideoStream
 import numpy as np
@@ -22,7 +19,7 @@ ap.add_argument("-o", "--output", default="dataset/users/user2",
                 help="path to output directory")
 args = vars(ap.parse_args())
 
-# make a directory to store images of current id
+# make a directory to store images for current id
 if not os.path.exists(args["output"]):
     os.makedirs(args["output"])
 name = args["output"].split(os.path.sep)[-1]
