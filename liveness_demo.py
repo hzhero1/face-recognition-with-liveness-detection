@@ -19,7 +19,7 @@ ap.add_argument("-m_t", "--model", type=str, default="liveness.model",
 	help="path to trained model")
 ap.add_argument("-l_l", "--le_liveness", type=str, default="le_liveness.pickle",
 	help="path to label encoder")
-ap.add_argument("-d", "--detector", type=str, default="face_detector",
+ap.add_argument("-d", "--detector", type=str, default="models/face_detector",
 	help="path to OpenCV's deep learning face detector")
 ap.add_argument("-c", "--confidence", type=float, default=0.5,
 	help="minimum probability to filter weak detections")
@@ -29,7 +29,7 @@ ap.add_argument("-y", "--display", type=int, default=1,
 	help="whether or not to display output frame to screen")
 ap.add_argument("-l_i", "--le_id", type=str, default="output/le_id.pickle",
 	help="path to label encoder")
-ap.add_argument("-m_e", "--embedding-model", default="openface_nn4.small2.v1.t7",
+ap.add_argument("-m_e", "--embedding-model", default="models/face_embeddings/openface_nn4.small2.v1.t7",
 	help="path to OpenCV's deep learning face embedding model")
 ap.add_argument("-r", "--recognizer", default = "output/recognizer.pickle",
 	help="path to model trained to recognize faces")

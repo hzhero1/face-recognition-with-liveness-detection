@@ -6,13 +6,14 @@ import matplotlib
 matplotlib.use("Agg")
 
 # import the necessary packages
-from pyimagesearch.livenessnet import LivenessNet
+from liveness_net.livenessnet import LivenessNet
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 from keras.preprocessing.image import ImageDataGenerator
 from keras.optimizers import Adam
 from keras.utils import np_utils
+from keras.utils import plot_model
 from imutils import paths
 import matplotlib.pyplot as plt
 import numpy as np
@@ -23,13 +24,13 @@ import os
 
 # construct the argument parser and parse the arguments
 ap = argparse.ArgumentParser()
-ap.add_argument("-d", "--dataset", required=True,
+ap.add_argument("-d", "--dataset", default="dataset/liveness",
 	help="path to input dataset")
-ap.add_argument("-m", "--model", type=str, required=True,
+ap.add_argument("-m", "--model", type=str, default="output/liveness.model",
 	help="path to trained model")
-ap.add_argument("-l", "--le", type=str, required=True,
+ap.add_argument("-l", "--le", type=str, default="output/le_liveness.pickle",
 	help="path to label encoder")
-ap.add_argument("-p", "--plot", type=str, default="plot.png",
+ap.add_argument("-p", "--plot", type=str, default="plot1.png",
 	help="path to output loss/accuracy plot")
 args = vars(ap.parse_args())
 
@@ -37,7 +38,7 @@ args = vars(ap.parse_args())
 # epochs to train for
 INIT_LR = 1e-4
 BS = 8
-EPOCHS = 50
+EPOCHS = 60
 
 # grab the list of images in our dataset directory, then initialize
 # the list of data (i.e., images) and class images
@@ -85,6 +86,9 @@ model = LivenessNet.build(width=32, height=32, depth=3,
 model.compile(loss="binary_crossentropy", optimizer=opt,
 	metrics=["accuracy"])
 
+model.summary()
+plot_model(model, to_file='model.png', show_shapes=True, show_layer_names=True)
+
 # train the network
 print("[INFO] training network for {} epochs...".format(EPOCHS))
 H = model.fit_generator(aug.flow(trainX, trainY, batch_size=BS),
@@ -100,7 +104,6 @@ print(classification_report(testY.argmax(axis=1),
 # save the network to disk
 print("[INFO] serializing network to '{}'...".format(args["model"]))
 model.save(args["model"])
-
 # save the label encoder to disk
 f = open(args["le"], "wb")
 f.write(pickle.dumps(le))

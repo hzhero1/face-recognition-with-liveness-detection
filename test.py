@@ -1,4 +1,4 @@
-from pyimagesearch.livenessnet import LivenessNet
+from liveness_net.livenessnet import LivenessNet
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
@@ -16,13 +16,15 @@ import os
 a=["fake", "fake", "real", "real", "fake"]
 le=LabelEncoder()
 labels=le.fit_transform(a)
+print(labels)
 labels=np_utils.to_categorical(labels)
 print(labels)
 print(le.classes_)
 print(len(le.classes_))
+print(le)
 
-imagePaths=list(paths.list_images("dataset1"))
-print(imagePaths[1])
-image=cv2.imread(imagePaths[1])
-image=np.array(image)
-print(image.shape)
+# imagePaths=list(paths.list_images("dataset1"))
+# print(imagePaths[1])
+# image=cv2.imread(imagePaths[1])
+# image=np.array(image)
+# print(image.shape)
