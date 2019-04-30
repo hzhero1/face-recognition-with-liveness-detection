@@ -239,14 +239,14 @@ while True:
                             name = "Unknown"
 
                     # draw the label and bounding box on the frame
-                    label = "{}: {:.4f} {}".format(label, preds[j], name)
+                    label = "{}: {:.2f}% {}".format(label, preds[j]*100, name)
                     y = startY - 10 if startY - 10 > 10 else startY + 20
                     cv2.putText(frame, label, (startX, y), cv2.FONT_HERSHEY_SIMPLEX, 0.6, GREEN, 2)
                     cv2.rectangle(frame, (startX, startY), (endX, endY), GREEN, 1)
 
                 else:
                     # draw the label and bounding box on the frame
-                    label = "{}: {:.4f}".format(label, preds[j])
+                    label = "{}: {:.2f}%".format(label, preds[j]*100)
                     y = startY - 10 if startY - 10 > 10 else startY + 20
                     cv2.putText(frame, label, (startX, y), cv2.FONT_HERSHEY_SIMPLEX, 0.6, RED, 2)
                     cv2.rectangle(frame, (startX, startY), (endX, endY), RED, 1)
@@ -326,7 +326,7 @@ while True:
 
                             # draw the bounding box of the face along with the
                             # associated probability
-                            text = "{}: {:.4f}".format(label, preds[j])
+                            text = "{}: {:.2f}%".format(label, preds[j]*100)
                             y = startY - 10 if startY - 10 > 10 else startY + 20
                             cv2.putText(frame, text, (startX, y), cv2.FONT_HERSHEY_SIMPLEX, 0.6, GREEN, 2)
                             cv2.rectangle(frame, (startX, startY), (endX, endY), GREEN, 1)
@@ -341,7 +341,7 @@ while True:
 
                                 # draw the bounding box of the face along with the
                                 # associated probability
-                                text = "{}: {:.4f} {}: {}".format(label, preds[j], name, "Blinked!")
+                                text = "{}: {:.2f}% {}: {}".format(label, preds[j]*100, name, "Blinked!")
                                 y = startY - 10 if startY - 10 > 10 else startY + 20
                                 cv2.putText(frame, text, (startX, y), cv2.FONT_HERSHEY_SIMPLEX, 0.6,
                                             GREEN, 2)
@@ -354,7 +354,7 @@ while True:
                             else:
                                 # draw the bounding box of the face along with the
                                 # associated probability
-                                text = "{}: {:.4f}".format(label, preds[j])
+                                text = "{}: {:.2f}%".format(label, preds[j]*100)
                                 y = startY - 10 if startY - 10 > 10 else startY + 20
                                 cv2.putText(frame, text, (startX, y), cv2.FONT_HERSHEY_SIMPLEX, 0.6, GREEN, 2)
                                 cv2.rectangle(frame, (startX, startY), (endX, endY), GREEN, 1)
@@ -363,7 +363,7 @@ while True:
                             COUNTER[name] = 0
                 else:
                     # draw the label and bounding box on the frame
-                    text = "{}: {:.4f}".format(label, preds[j])
+                    text = "{}: {:.2f}%".format(label, preds[j]*100)
                     y = startY - 10 if startY - 10 > 10 else startY + 20
                     cv2.putText(frame, text, (startX, y), cv2.FONT_HERSHEY_SIMPLEX, 0.6, RED, 2)
                     cv2.rectangle(frame, (startX, startY), (endX, endY), RED, 1)
