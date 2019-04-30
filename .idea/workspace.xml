@@ -1,42 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="798c469a-34f8-4b32-9be5-5e2f2f34a418" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_face_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/build_face_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/Chad_Smith/Chad-Smith-Modern-Drummer-1-e1313609138321.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/Chad_Smith/Chad-Smith.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/Chad_Smith/ChadSmith-920x584.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/Chad_Smith/Chad_Smith-avatar.jpg.240x240_q90_bw_crop.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/Chad_Smith/MSA-003634-Chad-Smith-400x512.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/Chad_Smith/chad-smith-batería-de-la-banda-candente-música-chili-peppers-se-realiza-en-concierto-el-festival-bola-105414323.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/Chad_Smith/chad-smith-photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/Chad_Smith/depositphotos_50597637-stock-photo-chad-smith.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/Chad_Smith/depositphotos_50609015-stock-photo-chad-smith.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/Chad_Smith/gettyimages-106706630-612x612.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/Will_Ferrell/Will-Ferrell--920x584.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/Will_Ferrell/Will-Ferrell-in-Anchorman-The-Legend-of-Ron-Burgundy2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/Will_Ferrell/Will_Ferrell.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/Will_Ferrell/will-ferrell-bush-snl.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/Will_Ferrell/will-ferrell-car-accident-310x415.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/Will_Ferrell/will-ferrell-religion-hobbies.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/Will_Ferrell/will-ferrell-revives-his-george-w-bush-impression-at-samantha-bee-c1dd702d-3159-41b8-a9d4-d3819a0167da.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/Will_Ferrell/will-ferrell-ron-burgundy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/Will_Ferrell/will-ferrell_sc_768x1024.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/Will_Ferrell/willferrell-531290872.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/hzh/00010.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/hzh/00011.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/hzh/00012.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/hzh/00013.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/hzh/00014.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/hzh/00015.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/hzh/00016.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/hzh/00017.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/hzh/00018.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/users/hzh/00019.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liveness_face_recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/liveness_face_recognition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdir_test.py" beforeDir="false" />
-    </list>
+    <list default="true" id="798c469a-34f8-4b32-9be5-5e2f2f34a418" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +11,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build_liveness_dataset.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+              <folding>
+                <element signature="e#257#282#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/liveness_face_recognition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187">
-              <caret line="193" lean-forward="true" selection-start-line="193" selection-end-line="193" />
+            <state relative-caret-position="-5">
+              <caret line="75" column="59" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="59" />
               <folding>
                 <element signature="e#130#172#0" expanded="true" />
               </folding>
@@ -59,47 +36,28 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build_face_dataset.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/encode_faces.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-              <folding>
-                <element signature="e#113#138#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/liveness_net/livenessnet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-              <folding>
-                <element signature="e#32#67#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="838">
+              <caret line="99" column="49" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/train_liveness.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plot1.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
@@ -110,13 +68,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liveness_net/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$USER_HOME$/venv/lib/python3.5/site-packages/keras_preprocessing/image/numpy_array_iterator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2354">
+              <caret line="116" selection-start-line="116" selection-end-line="116" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/venv/lib/python3.5/site-packages/keras_preprocessing/image/image_data_generator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9284">
+              <caret line="429" selection-start-line="429" selection-end-line="429" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -134,29 +112,29 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/liveness_net/livenessnet.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/liveness_demo.py" />
-        <option value="$PROJECT_DIR$/train_liveness.py" />
         <option value="$PROJECT_DIR$/mkdir_test.py" />
-        <option value="$PROJECT_DIR$/encode_faces.py" />
         <option value="$PROJECT_DIR$/build_face_dataset.py" />
+        <option value="$PROJECT_DIR$/encode_faces.py" />
+        <option value="$PROJECT_DIR$/build _liveness_dataset.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/liveness_net/livenessnet.py" />
+        <option value="$PROJECT_DIR$/train_liveness.py" />
         <option value="$PROJECT_DIR$/liveness_face_recognition.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="499" />
-    <option name="y" value="105" />
+    <option name="x" value="544" />
+    <option name="y" value="296" />
     <option name="width" value="928" />
-    <option name="height" value="1020" />
+    <option name="height" value="1012" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,12 +150,6 @@
             <path>
               <item name="final_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="final_project" type="462c0819:PsiDirectoryNode" />
-              <item name="dataset" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="final_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="final_project" type="462c0819:PsiDirectoryNode" />
               <item name="liveness_net" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -185,32 +157,16 @@
               <item name="final_project" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="final_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="final_project" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="face_detector" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="final_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="final_project" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="face_embeddings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="final_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="final_project" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -225,7 +181,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.liveness_face_recognition">
-    <configuration name="build_face_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="build _liveness_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="final_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -237,7 +193,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/build_face_dataset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/build _liveness_dataset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -288,7 +244,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mkdir_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="final_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -300,7 +256,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mkdir_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,10 +289,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.liveness_face_recognition" />
-        <item itemvalue="Python.encode_faces" />
-        <item itemvalue="Python.build_face_dataset" />
-        <item itemvalue="Python.mkdir_test" />
         <item itemvalue="Python.train_liveness" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.build _liveness_dataset" />
+        <item itemvalue="Python.encode_faces" />
       </list>
     </recent_temporary>
   </component>
@@ -354,16 +310,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="499" y="105" width="928" height="1020" extended-state="0" />
+    <frame x="544" y="296" width="928" height="1012" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24336283" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24557522" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41367713" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42825112" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5169683" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4276018" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -377,96 +333,115 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/venv/lib/python3.5/site-packages/keras/utils/vis_utils.py">
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26279.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26270.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26252.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26237.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26222.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26207.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26195.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26180.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26171.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26165.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26156.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26126.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26117.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26105.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26112.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26106.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26120.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26115.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26110.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26123.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26128.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26131.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26137.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26138.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26095.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26082.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26065.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26050.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26048.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26017.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/25999.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/25984.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/25933.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/25915.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/25900.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/25882.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/25864.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/25849.png" />
+    <entry file="file://$PROJECT_DIR$/dataset/ROSE_lab_dataset/Real/26030.png" />
+    <entry file="file://$PROJECT_DIR$/build _liveness_dataset.py" />
+    <entry file="file://$PROJECT_DIR$/dataset/liveness/Fake/0001/0001_00_00_01_0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build_liveness_dataset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        <state relative-caret-position="198">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="e#257#282#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+    <entry file="file://$PROJECT_DIR$/plot.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/venv/lib/python3.5/site-packages/keras_preprocessing/image/numpy_array_iterator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="1143" column="17" lean-forward="true" selection-start-line="1143" selection-start-column="17" selection-end-line="1143" selection-end-column="17" />
+        <state relative-caret-position="2354">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_liveness.py">
+    <entry file="file://$USER_HOME$/venv/lib/python3.5/site-packages/keras_preprocessing/image/image_data_generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+        <state relative-caret-position="9284">
+          <caret line="429" selection-start-line="429" selection-end-line="429" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liveness_demo.py">
+    <entry file="file://$PROJECT_DIR$/build_face_dataset.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liveness_net/livenessnet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1938">
-          <caret line="111" column="51" selection-start-line="111" selection-start-column="51" selection-end-line="111" selection-end-column="51" />
+        <state relative-caret-position="838">
+          <caret line="99" column="49" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liveness_net/livenessnet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        <state relative-caret-position="264">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
-            <element signature="e#32#67#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plot1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plot.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liveness_net/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build_face_dataset.py">
+    <entry file="file://$PROJECT_DIR$/train_liveness.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        <state relative-caret-position="198">
+          <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/liveness_face_recognition.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="193" lean-forward="true" selection-start-line="193" selection-end-line="193" />
+        <state relative-caret-position="-5">
+          <caret line="75" column="59" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="59" />
           <folding>
             <element signature="e#130#172#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mkdir_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/encode_faces.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-          <folding>
-            <element signature="e#113#138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/plot1.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>

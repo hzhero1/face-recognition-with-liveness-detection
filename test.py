@@ -23,8 +23,15 @@ print(le.classes_)
 print(len(le.classes_))
 print(le)
 
-# imagePaths=list(paths.list_images("dataset1"))
-# print(imagePaths[1])
+image = cv2.imread("dataset/liveness/Fake/1012.png")
+print(image)
+print(image.shape)
+image = cv2.resize(image, (32, 32))
+print(image)
+
+# imagePaths=list(paths.list_images("dataset/ROSE"))
+# print(imagePaths)
 # image=cv2.imread(imagePaths[1])
 # image=np.array(image)
 # print(image.shape)
+

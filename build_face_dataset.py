@@ -15,7 +15,7 @@ ap.add_argument("-m", "--model", default="models/face_detector/res10_300x300_ssd
                 help="path to Caffe pre-trained model")
 ap.add_argument("-c", "--confidence", type=float, default=0.5,
                 help="minimum probability to filter weak detections")
-ap.add_argument("-o", "--output", default="dataset/users/Dad",
+ap.add_argument("-o", "--output", default="dataset/users/ZhouYan",
                 help="path to output directory")
 args = vars(ap.parse_args())
 

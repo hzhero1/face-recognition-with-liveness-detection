@@ -20,9 +20,9 @@ import os
 
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
-ap.add_argument("-m_t", "--model", type=str, default="liveness.model",
+ap.add_argument("-m_t", "--model", type=str, default="output/liveness_rose.model",
                 help="path to trained model")
-ap.add_argument("-l_l", "--le_liveness", type=str, default="le_liveness.pickle",
+ap.add_argument("-l_l", "--le_liveness", type=str, default="output/le_liveness_rose.pickle",
                 help="path to label encoder")
 ap.add_argument("-d", "--detector", type=str, default="models/face_detector",
                 help="path to OpenCV's deep learning face detector")
@@ -82,7 +82,8 @@ predictor = dlib.shape_predictor(args["shape_predictor"])
 EYE_AR_THRESH = 0.22
 EYE_AR_CONSEC_FRAMES = 3
 
-FACE_THRESH = 8
+TOLERANCE = 0.45
+FACE_THRESH = 7
 
 # grab the indexes of the facial landmarks for the left and
 # right eye, respectively
@@ -162,7 +163,7 @@ while True:
 
                 # attempt to match the new face in the input image to our known
                 # encodings
-                matches = face_recognition.compare_faces(data["encodings"], encodings[0], tolerance=0.6)
+                matches = face_recognition.compare_faces(data["encodings"], encodings[0], tolerance=TOLERANCE)
                 name = "Unknown"
 
                 # check to see if we have found a match
@@ -195,7 +196,7 @@ while True:
             elif rec_mod == 1:
                 # extract the face ROI and then pre-process it in the exact
                 # same manner as our training data
-                face = cv2.resize(face, (32, 32))
+                face = cv2.resize(face, (64, 64))
                 face = face.astype("float") / 255.0
                 face = img_to_array(face)
                 face = np.expand_dims(face, axis=0)
@@ -213,7 +214,7 @@ while True:
 
                     # attempt to match each face in the input image to our known
                     # encodings
-                    matches = face_recognition.compare_faces(data["encodings"], encodings[0], tolerance=0.6)
+                    matches = face_recognition.compare_faces(data["encodings"], encodings[0], tolerance=TOLERANCE)
                     name = "Unknown"
 
                     # check to see if we have found a match
@@ -253,7 +254,7 @@ while True:
             elif rec_mod == 2:
                 # extract the face ROI and then pre-process it in the exact
                 # same manner as our training data
-                face = cv2.resize(face, (32, 32))
+                face = cv2.resize(face, (64, 64))
                 face = face.astype("float") / 255.0
                 face = img_to_array(face)
                 face = np.expand_dims(face, axis=0)
@@ -271,7 +272,7 @@ while True:
 
                     # attempt to match each face in the input image to our known
                     # encodings
-                    matches = face_recognition.compare_faces(data["encodings"], encodings[0], tolerance=0.6)
+                    matches = face_recognition.compare_faces(data["encodings"], encodings[0], tolerance=TOLERANCE)
                     name = "Unknown"
 
                     # check to see if we have found a match
@@ -374,23 +375,23 @@ while True:
     cv2.putText(frame, "Blink detection: {}".format(status_b), (25, 100),
                 cv2.FONT_HERSHEY_SIMPLEX, 0.75, BLUE, 2)
 
-    # if the video writer is None *AND* we are supposed to write
-    # the output video to disk initialize the writer
-    if writer is None and args["output"] is not None:
-        fourcc = cv2.VideoWriter_fourcc(*"MJPG")
-        writer = cv2.VideoWriter(args["output"], fourcc, 20,
-                                 (frame.shape[1], frame.shape[0]), True)
-
-    # if the writer is not None, write the frame with recognized
-    # faces to disk
-    if writer is not None:
-        writer.write(frame)
+    # # if the video writer is None *AND* we are supposed to write
+    # # the output video to disk initialize the writer
+    # if writer is None and args["output"] is not None:
+    #     fourcc = cv2.VideoWriter_fourcc(*"MJPG")
+    #     writer = cv2.VideoWriter(args["output"], fourcc, 20,
+    #                              (frame.shape[1], frame.shape[0]), True)
+    #
+    # # if the writer is not None, write the frame with recognized
+    # # faces to disk
+    # if writer is not None:
+    #     writer.write(frame)
 
     fps.update()
     # check to see if we are supposed to display the output frame to
     # the screen
     if args["display"] > 0:
-        cv2.imshow("Frame", frame)
+        cv2.imshow("Face Recognition", frame)
 
     key = cv2.waitKey(1) & 0xFF
 
