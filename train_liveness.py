@@ -23,11 +23,11 @@ import os
 ap = argparse.ArgumentParser()
 ap.add_argument("-d", "--dataset", default="dataset/rose",
                 help="path to input dataset")
-ap.add_argument("-m", "--model", type=str, default="output/liveness_rose.model",
+ap.add_argument("-m", "--model", type=str, default="output/liveness_rose2.model",
                 help="path to trained model")
-ap.add_argument("-l", "--le", type=str, default="output/le_liveness_rose.pickle",
+ap.add_argument("-l", "--le", type=str, default="output/le_liveness_rose2.pickle",
                 help="path to label encoder")
-ap.add_argument("-p", "--plot", type=str, default="plot1.png",
+ap.add_argument("-p", "--plot", type=str, default="plot2.png",
                 help="path to output loss/accuracy plot")
 args = vars(ap.parse_args())
 
@@ -86,7 +86,7 @@ model.compile(loss="binary_crossentropy", optimizer=opt,
               metrics=["accuracy"])
 
 model.summary()
-plot_model(model, to_file='model.png', show_shapes=True, show_layer_names=True)
+# plot_model(model, to_file='model.png', show_shapes=True, show_layer_names=True)
 
 # train the network
 print("[INFO] training network for {} epochs...".format(EPOCHS))
@@ -94,7 +94,7 @@ H = model.fit_generator(aug.flow(trainX, trainY, batch_size=BS),
                         validation_data=(testX, testY), steps_per_epoch=len(trainX) // BS,
                         epochs=EPOCHS)
 
-# evaluate the network
+# evaluate the network(predict testX and compute acc by comparing with testY)
 print("[INFO] evaluating network...")
 predictions = model.predict(testX, batch_size=BS)
 print(classification_report(testY.argmax(axis=1),
